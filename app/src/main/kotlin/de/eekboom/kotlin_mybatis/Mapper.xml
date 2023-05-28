@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="de.eekboom.kotlin_mybatis.Mapper">
+
+    <resultMap id="userResultMap" type="de.eekboom.kotlin_mybatis.AppUser">
+        <id property="id" column="id" />
+        <collection property="roles" javaType="ArrayList" ofType="de.eekboom.kotlin_mybatis.Role">
+            <id property="id" column="role_id"/>
+        </collection>
+    </resultMap>
+
+    <select id="selectAllUsers" resultMap="userResultMap">
+        select u.*, uxr.role_id
+        from app_user u
+        left join app_user_x_role uxr on u.id = uxr.app_user_id
+    </select>
+
+    <select id="selectAllRoles" resultType="de.eekboom.kotlin_mybatis.Role">
+        select * from role
+    </select>
+
+</mapper>

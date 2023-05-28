@@ -1,0 +1,20 @@
+<Configuration status="info">
+    <Appenders>
+        <!--
+            For pattern layout, see
+            https://logging.apache.org/log4j/2.x/manual/layouts.html#PatternLayout
+        -->
+        <File name="File" fileName="kotlin_mybatis.log">
+            <PatternLayout pattern="%d{${LOG_DATEFORMAT_PATTERN:-yyyy-MM-dd HH:mm:ss.SSS}} ${LOG_LEVEL_PATTERN:-%5p} %pid [%15.15t] %-40.40c{1.} : %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%ex}"/>
+        </File>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout  disableAnsi="false" pattern="%d{${LOG_DATEFORMAT_PATTERN:-yyyy-MM-dd HH:mm:ss.SSS}} %highlight{${LOG_LEVEL_PATTERN:-%5p}}{FATAL=red blink, ERROR=red, WARN=yellow bold, INFO=green, DEBUG=green bold, TRACE=blue} %style{%pid}{magenta} [%15.15t] %style{%-40.40c{1.}}{cyan} : %m%n${LOG_EXCEPTION_CONVERSION_WORD:-%ex}"/>
+        </Console>
+    </Appenders>
+    <Loggers>
+        <Root level="info">
+            <AppenderRef ref="File"/>
+            <AppenderRef ref="Console"/>
+        </Root>
+    </Loggers>
+</Configuration>

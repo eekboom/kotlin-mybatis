@@ -1,0 +1,335 @@
+2023-05-28 14:33:30.283  INFO 36104 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-28 14:33:30.564  INFO 36104 [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection conn0: url=jdbc:h2:~/test user=SA
+2023-05-28 14:33:30.566  INFO 36104 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-28 14:33:30.582  INFO 36104 [           main] d.e.k.MigrateDb                          : Running liquibase update
+2023-05-28 14:33:30.886  INFO 36104 [           main] l.d.c.H2Database                         : Set default schema name to PUBLIC
+2023-05-28 14:33:31.124  INFO 36104 [           main] l.l.StandardLockService                  : Changelog-Protokoll erfolgreich gesperrt.
+2023-05-28 14:33:31.488  INFO 36104 [           main] l.c.StandardChangeLogHistoryService      : Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2023-05-28 14:33:31.494  INFO 36104 [           main] l.c.StandardChangeLogHistoryService      : Reading from PUBLIC.DATABASECHANGELOG
+2023-05-28 14:33:31.537  INFO 36104 [           main] l.c.c.UpdateCommandStep                  : Using deploymentId: 5277211499
+2023-05-28 14:33:31.573  INFO 36104 [           main] l.c.StandardChangeLogHistoryService      : Reading from PUBLIC.DATABASECHANGELOG
+2023-05-28 14:33:31.615  INFO 36104 [           main] l.c.ChangeSet                            : Table user created
+2023-05-28 14:33:31.619  INFO 36104 [           main] l.c.ChangeSet                            : Table role created
+2023-05-28 14:33:31.623 ERROR 36104 [           main] l.c.ChangeSet                            : ChangeSet liquibase-changelog.xml::1::stephen encountered an exception.
+2023-05-28 14:33:31.625  INFO 36104 [           main] l.c.c.UpdateCommandStep                  : Update command encountered an exception.
+2023-05-28 14:33:31.628  INFO 36104 [           main] l.l.StandardLockService                  : Successfully released change log lock
+2023-05-28 14:33:31.631  INFO 36104 [           main] l.l.StandardLockService                  : Successfully released change log lock
+2023-05-28 14:33:31.631  INFO 36104 [           main] l.c.CommandScope                         : Command execution complete
+2023-05-28 14:36:13.214  INFO 45024 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-28 14:36:13.555  INFO 45024 [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection conn0: url=jdbc:h2:~/test user=SA
+2023-05-28 14:36:13.558  INFO 45024 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-28 14:36:13.578  INFO 45024 [           main] d.e.k.MigrateDb                          : Running liquibase update
+2023-05-28 14:36:13.897  INFO 45024 [           main] l.d.c.H2Database                         : Set default schema name to PUBLIC
+2023-05-28 14:36:14.102  INFO 45024 [           main] l.l.StandardLockService                  : Changelog-Protokoll erfolgreich gesperrt.
+2023-05-28 14:36:14.426  INFO 45024 [           main] l.c.StandardChangeLogHistoryService      : Reading from PUBLIC.DATABASECHANGELOG
+2023-05-28 14:36:14.483  INFO 45024 [           main] l.c.c.UpdateCommandStep                  : Using deploymentId: 5277374432
+2023-05-28 14:36:14.516  INFO 45024 [           main] l.c.StandardChangeLogHistoryService      : Reading from PUBLIC.DATABASECHANGELOG
+2023-05-28 14:36:14.558 ERROR 45024 [           main] l.c.ChangeSet                            : ChangeSet liquibase-changelog.xml::1::stephen encountered an exception.
+2023-05-28 14:36:14.560  INFO 45024 [           main] l.c.c.UpdateCommandStep                  : Update command encountered an exception.
+2023-05-28 14:36:14.563  INFO 45024 [           main] l.l.StandardLockService                  : Successfully released change log lock
+2023-05-28 14:36:14.566  INFO 45024 [           main] l.l.StandardLockService                  : Successfully released change log lock
+2023-05-28 14:36:14.566  INFO 45024 [           main] l.c.CommandScope                         : Command execution complete
+2023-05-28 14:37:21.274  INFO 40068 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-28 14:37:21.451  INFO 40068 [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection conn0: url=jdbc:h2:~/test user=SA
+2023-05-28 14:37:21.452  INFO 40068 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-28 14:37:21.461  INFO 40068 [           main] d.e.k.MigrateDb                          : Running liquibase update
+2023-05-28 14:37:21.665  INFO 40068 [           main] l.d.c.H2Database                         : Set default schema name to PUBLIC
+2023-05-28 14:37:21.821  INFO 40068 [           main] l.l.StandardLockService                  : Changelog-Protokoll erfolgreich gesperrt.
+2023-05-28 14:37:22.078  INFO 40068 [           main] l.c.StandardChangeLogHistoryService      : Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2023-05-28 14:37:22.084  INFO 40068 [           main] l.c.StandardChangeLogHistoryService      : Reading from PUBLIC.DATABASECHANGELOG
+2023-05-28 14:37:22.130  INFO 40068 [           main] l.c.c.UpdateCommandStep                  : Using deploymentId: 5277442088
+2023-05-28 14:37:22.167  INFO 40068 [           main] l.c.StandardChangeLogHistoryService      : Reading from PUBLIC.DATABASECHANGELOG
+2023-05-28 14:37:22.205  INFO 40068 [           main] l.c.ChangeSet                            : Table user created
+2023-05-28 14:37:22.209  INFO 40068 [           main] l.c.ChangeSet                            : Table role created
+2023-05-28 14:37:22.212 ERROR 40068 [           main] l.c.ChangeSet                            : ChangeSet liquibase-changelog.xml::1::stephen encountered an exception.
+2023-05-28 14:37:22.214  INFO 40068 [           main] l.c.c.UpdateCommandStep                  : Update command encountered an exception.
+2023-05-28 14:37:22.218  INFO 40068 [           main] l.l.StandardLockService                  : Successfully released change log lock
+2023-05-28 14:37:22.221  INFO 40068 [           main] l.l.StandardLockService                  : Successfully released change log lock
+2023-05-28 14:37:22.221  INFO 40068 [           main] l.c.CommandScope                         : Command execution complete
+2023-05-28 14:39:48.409  INFO 47044 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-28 14:39:48.612  INFO 47044 [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection conn0: url=jdbc:h2:~/test user=SA
+2023-05-28 14:39:48.614  INFO 47044 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-28 14:39:48.628  INFO 47044 [           main] d.e.k.MigrateDb                          : Running liquibase update
+2023-05-28 14:39:48.909  INFO 47044 [           main] l.d.c.H2Database                         : Set default schema name to PUBLIC
+2023-05-28 14:39:49.051  INFO 47044 [           main] l.l.StandardLockService                  : Changelog-Protokoll erfolgreich gesperrt.
+2023-05-28 14:39:49.323  INFO 47044 [           main] l.c.StandardChangeLogHistoryService      : Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2023-05-28 14:39:49.328  INFO 47044 [           main] l.c.StandardChangeLogHistoryService      : Reading from PUBLIC.DATABASECHANGELOG
+2023-05-28 14:39:49.372  INFO 47044 [           main] l.c.c.UpdateCommandStep                  : Using deploymentId: 5277589332
+2023-05-28 14:39:49.409  INFO 47044 [           main] l.c.StandardChangeLogHistoryService      : Reading from PUBLIC.DATABASECHANGELOG
+2023-05-28 14:39:49.446  INFO 47044 [           main] l.c.ChangeSet                            : Table juser created
+2023-05-28 14:39:49.450  INFO 47044 [           main] l.c.ChangeSet                            : Table role created
+2023-05-28 14:39:49.468  INFO 47044 [           main] l.c.ChangeSet                            : Table user_x_role created
+2023-05-28 14:39:49.471  INFO 47044 [           main] l.c.ChangeSet                            : New row inserted into role
+2023-05-28 14:39:49.472  INFO 47044 [           main] l.c.ChangeSet                            : New row inserted into role
+2023-05-28 14:39:49.474  INFO 47044 [           main] l.c.ChangeSet                            : New row inserted into juser
+2023-05-28 14:39:49.477  INFO 47044 [           main] l.c.ChangeSet                            : New row inserted into user_x_role
+2023-05-28 14:39:49.479  INFO 47044 [           main] l.c.ChangeSet                            : New row inserted into user_x_role
+2023-05-28 14:39:49.480  INFO 47044 [           main] l.c.ChangeSet                            : ChangeSet liquibase-changelog.xml::1::stephen ran successfully in 44ms
+2023-05-28 14:39:49.488  INFO 47044 [           main] l.u.ShowSummaryUtil                      : UPDATE SUMMARY
+2023-05-28 14:39:49.489  INFO 47044 [           main] l.u.ShowSummaryUtil                      : Run:                          1
+2023-05-28 14:39:49.489  INFO 47044 [           main] l.u.ShowSummaryUtil                      : Previously run:               0
+2023-05-28 14:39:49.489  INFO 47044 [           main] l.u.ShowSummaryUtil                      : Filtered out:                 0
+2023-05-28 14:39:49.489  INFO 47044 [           main] l.u.ShowSummaryUtil                      : -------------------------------
+2023-05-28 14:39:49.489  INFO 47044 [           main] l.u.ShowSummaryUtil                      : Total change sets:            1
+
+2023-05-28 14:39:49.490  INFO 47044 [           main] l.u.ShowSummaryUtil                      : Update summary generated
+2023-05-28 14:39:49.491  INFO 47044 [           main] l.c.c.UpdateCommandStep                  : Update command completed successfully.
+2023-05-28 14:39:49.493  INFO 47044 [           main] l.l.StandardLockService                  : Successfully released change log lock
+2023-05-28 14:39:49.497  INFO 47044 [           main] l.l.StandardLockService                  : Successfully released change log lock
+2023-05-28 14:39:49.497  INFO 47044 [           main] l.c.CommandScope                         : Command execution complete
+2023-05-28 14:53:01.746  INFO 32812 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-28 14:53:01.983  INFO 32812 [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection conn0: url=jdbc:h2:~/test user=SA
+2023-05-28 14:53:01.986  INFO 32812 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-28 14:53:01.988  INFO 32812 [           main] d.e.k.Main                               : Creating mybatis sql session factory
+2023-05-28 14:54:01.096  INFO 37820 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-28 14:54:01.329  INFO 37820 [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection conn0: url=jdbc:h2:~/test user=SA
+2023-05-28 14:54:01.332  INFO 37820 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-28 14:54:01.332  INFO 37820 [           main] d.e.k.Main                               : Creating mybatis sql session factory
+2023-05-28 14:54:54.411  INFO 10600 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-28 14:54:54.620  INFO 10600 [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection conn0: url=jdbc:h2:~/test user=SA
+2023-05-28 14:54:54.622  INFO 10600 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-28 14:54:54.622  INFO 10600 [           main] d.e.k.Main                               : Creating mybatis sql session factory
+2023-05-28 15:38:21.859  INFO 31460 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-28 15:38:22.056  INFO 31460 [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection conn0: url=jdbc:h2:~/test user=SA
+2023-05-28 15:38:22.057  INFO 31460 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-28 15:38:22.058  INFO 31460 [           main] d.e.k.Main                               : Creating mybatis sql session factory
+2023-05-28 15:38:22.206  INFO 31460 [           main] d.e.k.MigrateDb                          : Running liquibase update
+2023-05-28 15:38:22.381  INFO 31460 [           main] l.d.c.H2Database                         : Set default schema name to PUBLIC
+2023-05-28 15:38:22.510  INFO 31460 [           main] l.l.StandardLockService                  : Changelog-Protokoll erfolgreich gesperrt.
+2023-05-28 15:38:22.760  INFO 31460 [           main] l.c.StandardChangeLogHistoryService      : Reading from PUBLIC.DATABASECHANGELOG
+2023-05-28 15:38:22.787  INFO 31460 [           main] l.c.DatabaseChangeLog                    : Change failed validation!
+2023-05-28 15:38:22.789  INFO 31460 [           main] l.l.StandardLockService                  : Successfully released change log lock
+2023-05-28 15:38:22.791  INFO 31460 [           main] l.c.CommandScope                         : Command execution complete
+2023-05-28 15:38:34.710  INFO 45624 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-28 15:38:34.908  INFO 45624 [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection conn0: url=jdbc:h2:~/test user=SA
+2023-05-28 15:38:34.910  INFO 45624 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-28 15:38:34.910  INFO 45624 [           main] d.e.k.Main                               : Creating mybatis sql session factory
+2023-05-28 15:44:12.559  INFO 43188 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-28 15:44:12.811  INFO 43188 [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection conn0: url=jdbc:h2:~/test user=SA
+2023-05-28 15:44:12.813  INFO 43188 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-28 15:44:12.814  INFO 43188 [           main] d.e.k.MigrateDb                          : Running liquibase update
+2023-05-28 15:44:13.017  INFO 43188 [           main] l.d.c.H2Database                         : Set default schema name to PUBLIC
+2023-05-28 15:44:13.169  INFO 43188 [           main] l.l.StandardLockService                  : Changelog-Protokoll erfolgreich gesperrt.
+2023-05-28 15:44:13.412  INFO 43188 [           main] l.c.StandardChangeLogHistoryService      : Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2023-05-28 15:44:13.417  INFO 43188 [           main] l.c.StandardChangeLogHistoryService      : Reading from PUBLIC.DATABASECHANGELOG
+2023-05-28 15:44:13.454  INFO 43188 [           main] l.c.c.UpdateCommandStep                  : Using deploymentId: 5281453421
+2023-05-28 15:44:13.487  INFO 43188 [           main] l.c.StandardChangeLogHistoryService      : Reading from PUBLIC.DATABASECHANGELOG
+2023-05-28 15:44:13.521  INFO 43188 [           main] l.c.ChangeSet                            : Table youser created
+2023-05-28 15:44:13.525  INFO 43188 [           main] l.c.ChangeSet                            : Table role created
+2023-05-28 15:44:13.533  INFO 43188 [           main] l.c.ChangeSet                            : Table youser_x_role created
+2023-05-28 15:44:13.535  INFO 43188 [           main] l.c.ChangeSet                            : New row inserted into role
+2023-05-28 15:44:13.536  INFO 43188 [           main] l.c.ChangeSet                            : New row inserted into role
+2023-05-28 15:44:13.538  INFO 43188 [           main] l.c.ChangeSet                            : New row inserted into youser
+2023-05-28 15:44:13.541  INFO 43188 [           main] l.c.ChangeSet                            : New row inserted into youser_x_role
+2023-05-28 15:44:13.543  INFO 43188 [           main] l.c.ChangeSet                            : New row inserted into youser_x_role
+2023-05-28 15:44:13.544  INFO 43188 [           main] l.c.ChangeSet                            : New row inserted into youser
+2023-05-28 15:44:13.546 ERROR 43188 [           main] l.c.ChangeSet                            : ChangeSet liquibase-changelog.xml::1::stephen encountered an exception.
+2023-05-28 15:44:13.547  INFO 43188 [           main] l.c.c.UpdateCommandStep                  : Update command encountered an exception.
+2023-05-28 15:44:13.550  INFO 43188 [           main] l.l.StandardLockService                  : Successfully released change log lock
+2023-05-28 15:44:13.551  INFO 43188 [           main] l.l.StandardLockService                  : Successfully released change log lock
+2023-05-28 15:44:13.552  INFO 43188 [           main] l.c.CommandScope                         : Command execution complete
+2023-05-28 15:46:32.723  INFO 41300 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-28 15:46:32.919  INFO 41300 [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection conn0: url=jdbc:h2:~/test user=SA
+2023-05-28 15:46:32.921  INFO 41300 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-28 15:46:32.922  INFO 41300 [           main] d.e.k.MigrateDb                          : Running liquibase update
+2023-05-28 15:46:33.134  INFO 41300 [           main] l.d.c.H2Database                         : Set default schema name to PUBLIC
+2023-05-28 15:46:33.293  INFO 41300 [           main] l.l.StandardLockService                  : Changelog-Protokoll erfolgreich gesperrt.
+2023-05-28 15:46:33.567  INFO 41300 [           main] l.c.StandardChangeLogHistoryService      : Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2023-05-28 15:46:33.573  INFO 41300 [           main] l.c.StandardChangeLogHistoryService      : Reading from PUBLIC.DATABASECHANGELOG
+2023-05-28 15:46:33.615  INFO 41300 [           main] l.c.c.UpdateCommandStep                  : Using deploymentId: 5281593578
+2023-05-28 15:46:33.650  INFO 41300 [           main] l.c.StandardChangeLogHistoryService      : Reading from PUBLIC.DATABASECHANGELOG
+2023-05-28 15:46:33.685  INFO 41300 [           main] l.c.ChangeSet                            : Table youser created
+2023-05-28 15:46:33.690  INFO 41300 [           main] l.c.ChangeSet                            : Table role created
+2023-05-28 15:46:33.699  INFO 41300 [           main] l.c.ChangeSet                            : Table youser_x_role created
+2023-05-28 15:46:33.702  INFO 41300 [           main] l.c.ChangeSet                            : New row inserted into role
+2023-05-28 15:46:33.704  INFO 41300 [           main] l.c.ChangeSet                            : New row inserted into role
+2023-05-28 15:46:33.705  INFO 41300 [           main] l.c.ChangeSet                            : New row inserted into youser
+2023-05-28 15:46:33.708  INFO 41300 [           main] l.c.ChangeSet                            : New row inserted into youser_x_role
+2023-05-28 15:46:33.709  INFO 41300 [           main] l.c.ChangeSet                            : New row inserted into youser_x_role
+2023-05-28 15:46:33.710  INFO 41300 [           main] l.c.ChangeSet                            : New row inserted into youser
+2023-05-28 15:46:33.717  INFO 41300 [           main] l.c.ChangeSet                            : New row inserted into youser_x_role
+2023-05-28 15:46:33.718  INFO 41300 [           main] l.c.ChangeSet                            : ChangeSet liquibase-changelog.xml::1::stephen ran successfully in 42ms
+2023-05-28 15:46:33.727  INFO 41300 [           main] l.u.ShowSummaryUtil                      : UPDATE SUMMARY
+2023-05-28 15:46:33.727  INFO 41300 [           main] l.u.ShowSummaryUtil                      : Run:                          1
+2023-05-28 15:46:33.728  INFO 41300 [           main] l.u.ShowSummaryUtil                      : Previously run:               0
+2023-05-28 15:46:33.728  INFO 41300 [           main] l.u.ShowSummaryUtil                      : Filtered out:                 0
+2023-05-28 15:46:33.728  INFO 41300 [           main] l.u.ShowSummaryUtil                      : -------------------------------
+2023-05-28 15:46:33.728  INFO 41300 [           main] l.u.ShowSummaryUtil                      : Total change sets:            1
+
+2023-05-28 15:46:33.729  INFO 41300 [           main] l.u.ShowSummaryUtil                      : Update summary generated
+2023-05-28 15:46:33.729  INFO 41300 [           main] l.c.c.UpdateCommandStep                  : Update command completed successfully.
+2023-05-28 15:46:33.731  INFO 41300 [           main] l.l.StandardLockService                  : Successfully released change log lock
+2023-05-28 15:46:33.735  INFO 41300 [           main] l.l.StandardLockService                  : Successfully released change log lock
+2023-05-28 15:46:33.735  INFO 41300 [           main] l.c.CommandScope                         : Command execution complete
+2023-05-28 15:46:33.737  INFO 41300 [           main] d.e.k.Main                               : Creating mybatis sql session factory
+2023-05-28 15:49:20.387  INFO 14288 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-28 15:49:20.641  INFO 14288 [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection conn0: url=jdbc:h2:~/test user=SA
+2023-05-28 15:49:20.642  INFO 14288 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-28 15:49:20.644  INFO 14288 [           main] d.e.k.MigrateDb                          : Running liquibase update
+2023-05-28 15:49:20.834  INFO 14288 [           main] l.d.c.H2Database                         : Set default schema name to PUBLIC
+2023-05-28 15:49:20.972  INFO 14288 [           main] l.l.StandardLockService                  : Changelog-Protokoll erfolgreich gesperrt.
+2023-05-28 15:49:21.215  INFO 14288 [           main] l.c.StandardChangeLogHistoryService      : Reading from PUBLIC.DATABASECHANGELOG
+2023-05-28 15:49:21.247  INFO 14288 [           main] l.c.StandardChangeLogHistoryService      : Reading from PUBLIC.DATABASECHANGELOG
+2023-05-28 15:49:21.252  INFO 14288 [           main] l.u.ShowSummaryUtil                      : UPDATE SUMMARY
+2023-05-28 15:49:21.252  INFO 14288 [           main] l.u.ShowSummaryUtil                      : Run:                          0
+2023-05-28 15:49:21.253  INFO 14288 [           main] l.u.ShowSummaryUtil                      : Previously run:               1
+2023-05-28 15:49:21.253  INFO 14288 [           main] l.u.ShowSummaryUtil                      : Filtered out:                 0
+2023-05-28 15:49:21.253  INFO 14288 [           main] l.u.ShowSummaryUtil                      : -------------------------------
+2023-05-28 15:49:21.253  INFO 14288 [           main] l.u.ShowSummaryUtil                      : Total change sets:            1
+
+2023-05-28 15:49:21.254  INFO 14288 [           main] l.u.ShowSummaryUtil                      : Update summary generated
+2023-05-28 15:49:21.257  INFO 14288 [           main] l.l.StandardLockService                  : Successfully released change log lock
+2023-05-28 15:49:21.261  INFO 14288 [           main] l.l.StandardLockService                  : Successfully released change log lock
+2023-05-28 15:49:21.262  INFO 14288 [           main] l.c.CommandScope                         : Command execution complete
+2023-05-28 15:49:21.264  INFO 14288 [           main] d.e.k.SqlSessionFactory                  : Creating mybatis sql session factory
+2023-05-28 15:50:14.924  INFO 40476 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-28 15:50:15.138  INFO 40476 [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection conn0: url=jdbc:h2:~/test user=SA
+2023-05-28 15:50:15.140  INFO 40476 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-28 15:50:15.141  INFO 40476 [           main] d.e.k.MigrateDb                          : Running liquibase update
+2023-05-28 15:50:15.331  INFO 40476 [           main] l.d.c.H2Database                         : Set default schema name to PUBLIC
+2023-05-28 15:50:15.469  INFO 40476 [           main] l.l.StandardLockService                  : Changelog-Protokoll erfolgreich gesperrt.
+2023-05-28 15:50:15.735  INFO 40476 [           main] l.c.StandardChangeLogHistoryService      : Reading from PUBLIC.DATABASECHANGELOG
+2023-05-28 15:50:15.768  INFO 40476 [           main] l.c.StandardChangeLogHistoryService      : Reading from PUBLIC.DATABASECHANGELOG
+2023-05-28 15:50:15.773  INFO 40476 [           main] l.u.ShowSummaryUtil                      : UPDATE SUMMARY
+2023-05-28 15:50:15.773  INFO 40476 [           main] l.u.ShowSummaryUtil                      : Run:                          0
+2023-05-28 15:50:15.774  INFO 40476 [           main] l.u.ShowSummaryUtil                      : Previously run:               1
+2023-05-28 15:50:15.774  INFO 40476 [           main] l.u.ShowSummaryUtil                      : Filtered out:                 0
+2023-05-28 15:50:15.774  INFO 40476 [           main] l.u.ShowSummaryUtil                      : -------------------------------
+2023-05-28 15:50:15.774  INFO 40476 [           main] l.u.ShowSummaryUtil                      : Total change sets:            1
+
+2023-05-28 15:50:15.775  INFO 40476 [           main] l.u.ShowSummaryUtil                      : Update summary generated
+2023-05-28 15:50:15.779  INFO 40476 [           main] l.l.StandardLockService                  : Successfully released change log lock
+2023-05-28 15:50:15.783  INFO 40476 [           main] l.l.StandardLockService                  : Successfully released change log lock
+2023-05-28 15:50:15.784  INFO 40476 [           main] l.c.CommandScope                         : Command execution complete
+2023-05-28 15:50:15.786  INFO 40476 [           main] d.e.k.SqlSessionFactory                  : Creating mybatis sql session factory
+2023-05-28 15:50:29.497  INFO 42192 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-28 15:50:29.705  INFO 42192 [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection conn0: url=jdbc:h2:~/test user=SA
+2023-05-28 15:50:29.707  INFO 42192 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-28 15:50:29.709  INFO 42192 [           main] d.e.k.MigrateDb                          : Running liquibase update
+2023-05-28 15:50:29.902  INFO 42192 [           main] l.d.c.H2Database                         : Set default schema name to PUBLIC
+2023-05-28 15:50:30.031  INFO 42192 [           main] l.l.StandardLockService                  : Changelog-Protokoll erfolgreich gesperrt.
+2023-05-28 15:50:30.283  INFO 42192 [           main] l.c.StandardChangeLogHistoryService      : Reading from PUBLIC.DATABASECHANGELOG
+2023-05-28 15:50:30.315  INFO 42192 [           main] l.c.StandardChangeLogHistoryService      : Reading from PUBLIC.DATABASECHANGELOG
+2023-05-28 15:50:30.320  INFO 42192 [           main] l.u.ShowSummaryUtil                      : UPDATE SUMMARY
+2023-05-28 15:50:30.321  INFO 42192 [           main] l.u.ShowSummaryUtil                      : Run:                          0
+2023-05-28 15:50:30.321  INFO 42192 [           main] l.u.ShowSummaryUtil                      : Previously run:               1
+2023-05-28 15:50:30.321  INFO 42192 [           main] l.u.ShowSummaryUtil                      : Filtered out:                 0
+2023-05-28 15:50:30.321  INFO 42192 [           main] l.u.ShowSummaryUtil                      : -------------------------------
+2023-05-28 15:50:30.322  INFO 42192 [           main] l.u.ShowSummaryUtil                      : Total change sets:            1
+
+2023-05-28 15:50:30.323  INFO 42192 [           main] l.u.ShowSummaryUtil                      : Update summary generated
+2023-05-28 15:50:30.325  INFO 42192 [           main] l.l.StandardLockService                  : Successfully released change log lock
+2023-05-28 15:50:30.329  INFO 42192 [           main] l.l.StandardLockService                  : Successfully released change log lock
+2023-05-28 15:50:30.330  INFO 42192 [           main] l.c.CommandScope                         : Command execution complete
+2023-05-28 15:50:30.332  INFO 42192 [           main] d.e.k.SqlSessionFactory                  : Creating mybatis sql session factory
+2023-05-28 15:51:13.942  INFO 44100 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-28 15:51:14.147  INFO 44100 [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection conn0: url=jdbc:h2:~/test user=SA
+2023-05-28 15:51:14.148  INFO 44100 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-28 15:51:14.149  INFO 44100 [           main] d.e.k.MigrateDb                          : Running liquibase update
+2023-05-28 15:51:14.341  INFO 44100 [           main] l.d.c.H2Database                         : Set default schema name to PUBLIC
+2023-05-28 15:51:14.464  INFO 44100 [           main] l.l.StandardLockService                  : Changelog-Protokoll erfolgreich gesperrt.
+2023-05-28 15:51:14.715  INFO 44100 [           main] l.c.StandardChangeLogHistoryService      : Reading from PUBLIC.DATABASECHANGELOG
+2023-05-28 15:51:14.748  INFO 44100 [           main] l.c.StandardChangeLogHistoryService      : Reading from PUBLIC.DATABASECHANGELOG
+2023-05-28 15:51:14.752  INFO 44100 [           main] l.u.ShowSummaryUtil                      : UPDATE SUMMARY
+2023-05-28 15:51:14.753  INFO 44100 [           main] l.u.ShowSummaryUtil                      : Run:                          0
+2023-05-28 15:51:14.753  INFO 44100 [           main] l.u.ShowSummaryUtil                      : Previously run:               1
+2023-05-28 15:51:14.753  INFO 44100 [           main] l.u.ShowSummaryUtil                      : Filtered out:                 0
+2023-05-28 15:51:14.753  INFO 44100 [           main] l.u.ShowSummaryUtil                      : -------------------------------
+2023-05-28 15:51:14.753  INFO 44100 [           main] l.u.ShowSummaryUtil                      : Total change sets:            1
+
+2023-05-28 15:51:14.755  INFO 44100 [           main] l.u.ShowSummaryUtil                      : Update summary generated
+2023-05-28 15:51:14.758  INFO 44100 [           main] l.l.StandardLockService                  : Successfully released change log lock
+2023-05-28 15:51:14.762  INFO 44100 [           main] l.l.StandardLockService                  : Successfully released change log lock
+2023-05-28 15:51:14.763  INFO 44100 [           main] l.c.CommandScope                         : Command execution complete
+2023-05-28 15:51:14.765  INFO 44100 [           main] d.e.k.SqlSessionFactory                  : Creating mybatis sql session factory
+2023-05-28 15:51:40.077  INFO 1784 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-28 15:51:40.286  INFO 1784 [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection conn0: url=jdbc:h2:~/test user=SA
+2023-05-28 15:51:40.288  INFO 1784 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-28 15:51:40.289  INFO 1784 [           main] d.e.k.MigrateDb                          : Running liquibase update
+2023-05-28 15:51:40.467  INFO 1784 [           main] l.d.c.H2Database                         : Set default schema name to PUBLIC
+2023-05-28 15:51:40.588  INFO 1784 [           main] l.l.StandardLockService                  : Changelog-Protokoll erfolgreich gesperrt.
+2023-05-28 15:51:40.831  INFO 1784 [           main] l.c.StandardChangeLogHistoryService      : Reading from PUBLIC.DATABASECHANGELOG
+2023-05-28 15:51:40.862  INFO 1784 [           main] l.c.StandardChangeLogHistoryService      : Reading from PUBLIC.DATABASECHANGELOG
+2023-05-28 15:51:40.866  INFO 1784 [           main] l.u.ShowSummaryUtil                      : UPDATE SUMMARY
+2023-05-28 15:51:40.867  INFO 1784 [           main] l.u.ShowSummaryUtil                      : Run:                          0
+2023-05-28 15:51:40.867  INFO 1784 [           main] l.u.ShowSummaryUtil                      : Previously run:               1
+2023-05-28 15:51:40.867  INFO 1784 [           main] l.u.ShowSummaryUtil                      : Filtered out:                 0
+2023-05-28 15:51:40.867  INFO 1784 [           main] l.u.ShowSummaryUtil                      : -------------------------------
+2023-05-28 15:51:40.867  INFO 1784 [           main] l.u.ShowSummaryUtil                      : Total change sets:            1
+
+2023-05-28 15:51:40.868  INFO 1784 [           main] l.u.ShowSummaryUtil                      : Update summary generated
+2023-05-28 15:51:40.872  INFO 1784 [           main] l.l.StandardLockService                  : Successfully released change log lock
+2023-05-28 15:51:40.875  INFO 1784 [           main] l.l.StandardLockService                  : Successfully released change log lock
+2023-05-28 15:51:40.876  INFO 1784 [           main] l.c.CommandScope                         : Command execution complete
+2023-05-28 15:51:40.878  INFO 1784 [           main] d.e.k.SqlSessionFactory                  : Creating mybatis sql session factory
+2023-05-28 15:54:59.869  INFO 39372 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-28 15:55:00.081  INFO 39372 [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection conn0: url=jdbc:h2:~/kotlin_mybatis user=SA
+2023-05-28 15:55:00.083  INFO 39372 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-28 15:55:00.084  INFO 39372 [           main] d.e.k.MigrateDb                          : Running liquibase update
+2023-05-28 15:55:00.284  INFO 39372 [           main] l.d.c.H2Database                         : Set default schema name to PUBLIC
+2023-05-28 15:55:00.437  INFO 39372 [           main] l.l.StandardLockService                  : Changelog-Protokoll erfolgreich gesperrt.
+2023-05-28 15:55:00.719  INFO 39372 [           main] l.c.StandardChangeLogHistoryService      : Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2023-05-28 15:55:00.725  INFO 39372 [           main] l.c.StandardChangeLogHistoryService      : Reading from PUBLIC.DATABASECHANGELOG
+2023-05-28 15:55:00.767  INFO 39372 [           main] l.c.c.UpdateCommandStep                  : Using deploymentId: 5282100729
+2023-05-28 15:55:00.801  INFO 39372 [           main] l.c.StandardChangeLogHistoryService      : Reading from PUBLIC.DATABASECHANGELOG
+2023-05-28 15:55:00.837  INFO 39372 [           main] l.c.ChangeSet                            : Table app_user created
+2023-05-28 15:55:00.842  INFO 39372 [           main] l.c.ChangeSet                            : Table role created
+2023-05-28 15:55:00.857  INFO 39372 [           main] l.c.ChangeSet                            : Table app_user_x_role created
+2023-05-28 15:55:00.861  INFO 39372 [           main] l.c.ChangeSet                            : New row inserted into role
+2023-05-28 15:55:00.863  INFO 39372 [           main] l.c.ChangeSet                            : New row inserted into role
+2023-05-28 15:55:00.864  INFO 39372 [           main] l.c.ChangeSet                            : New row inserted into app_user
+2023-05-28 15:55:00.867  INFO 39372 [           main] l.c.ChangeSet                            : New row inserted into app_user_x_role
+2023-05-28 15:55:00.869  INFO 39372 [           main] l.c.ChangeSet                            : New row inserted into app_user_x_role
+2023-05-28 15:55:00.870  INFO 39372 [           main] l.c.ChangeSet                            : New row inserted into app_user
+2023-05-28 15:55:00.871  INFO 39372 [           main] l.c.ChangeSet                            : New row inserted into app_user_x_role
+2023-05-28 15:55:00.872  INFO 39372 [           main] l.c.ChangeSet                            : ChangeSet liquibase-changelog.xml::1::stephen ran successfully in 46ms
+2023-05-28 15:55:00.881  INFO 39372 [           main] l.u.ShowSummaryUtil                      : UPDATE SUMMARY
+2023-05-28 15:55:00.881  INFO 39372 [           main] l.u.ShowSummaryUtil                      : Run:                          1
+2023-05-28 15:55:00.881  INFO 39372 [           main] l.u.ShowSummaryUtil                      : Previously run:               0
+2023-05-28 15:55:00.882  INFO 39372 [           main] l.u.ShowSummaryUtil                      : Filtered out:                 0
+2023-05-28 15:55:00.882  INFO 39372 [           main] l.u.ShowSummaryUtil                      : -------------------------------
+2023-05-28 15:55:00.882  INFO 39372 [           main] l.u.ShowSummaryUtil                      : Total change sets:            1
+
+2023-05-28 15:55:00.883  INFO 39372 [           main] l.u.ShowSummaryUtil                      : Update summary generated
+2023-05-28 15:55:00.884  INFO 39372 [           main] l.c.c.UpdateCommandStep                  : Update command completed successfully.
+2023-05-28 15:55:00.887  INFO 39372 [           main] l.l.StandardLockService                  : Successfully released change log lock
+2023-05-28 15:55:00.891  INFO 39372 [           main] l.l.StandardLockService                  : Successfully released change log lock
+2023-05-28 15:55:00.891  INFO 39372 [           main] l.c.CommandScope                         : Command execution complete
+2023-05-28 15:55:00.894  INFO 39372 [           main] d.e.k.SqlSessionFactory                  : Creating mybatis sql session factory
+2023-05-28 15:56:25.920  INFO 36140 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2023-05-28 15:56:26.126  INFO 36140 [           main] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection conn0: url=jdbc:h2:~/kotlin_mybatis user=SA
+2023-05-28 15:56:26.128  INFO 36140 [           main] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2023-05-28 15:56:26.129  INFO 36140 [           main] d.e.k.MigrateDb                          : Running liquibase update
+2023-05-28 15:56:26.308  INFO 36140 [           main] l.d.c.H2Database                         : Set default schema name to PUBLIC
+2023-05-28 15:56:26.452  INFO 36140 [           main] l.l.StandardLockService                  : Changelog-Protokoll erfolgreich gesperrt.
+2023-05-28 15:56:26.705  INFO 36140 [           main] l.c.StandardChangeLogHistoryService      : Creating database history table with name: PUBLIC.DATABASECHANGELOG
+2023-05-28 15:56:26.712  INFO 36140 [           main] l.c.StandardChangeLogHistoryService      : Reading from PUBLIC.DATABASECHANGELOG
+2023-05-28 15:56:26.752  INFO 36140 [           main] l.c.c.UpdateCommandStep                  : Using deploymentId: 5282186716
+2023-05-28 15:56:26.786  INFO 36140 [           main] l.c.StandardChangeLogHistoryService      : Reading from PUBLIC.DATABASECHANGELOG
+2023-05-28 15:56:26.825  INFO 36140 [           main] l.c.ChangeSet                            : Table app_user created
+2023-05-28 15:56:26.829  INFO 36140 [           main] l.c.ChangeSet                            : Table role created
+2023-05-28 15:56:26.839  INFO 36140 [           main] l.c.ChangeSet                            : Table app_user_x_role created
+2023-05-28 15:56:26.842  INFO 36140 [           main] l.c.ChangeSet                            : New row inserted into role
+2023-05-28 15:56:26.843  INFO 36140 [           main] l.c.ChangeSet                            : New row inserted into role
+2023-05-28 15:56:26.845  INFO 36140 [           main] l.c.ChangeSet                            : New row inserted into app_user
+2023-05-28 15:56:26.848  INFO 36140 [           main] l.c.ChangeSet                            : New row inserted into app_user_x_role
+2023-05-28 15:56:26.850  INFO 36140 [           main] l.c.ChangeSet                            : New row inserted into app_user_x_role
+2023-05-28 15:56:26.852  INFO 36140 [           main] l.c.ChangeSet                            : New row inserted into app_user
+2023-05-28 15:56:26.853  INFO 36140 [           main] l.c.ChangeSet                            : New row inserted into app_user_x_role
+2023-05-28 15:56:26.854  INFO 36140 [           main] l.c.ChangeSet                            : ChangeSet liquibase-changelog.xml::1::stephen ran successfully in 40ms
+2023-05-28 15:56:26.867  INFO 36140 [           main] l.u.ShowSummaryUtil                      : UPDATE SUMMARY
+2023-05-28 15:56:26.867  INFO 36140 [           main] l.u.ShowSummaryUtil                      : Run:                          1
+2023-05-28 15:56:26.867  INFO 36140 [           main] l.u.ShowSummaryUtil                      : Previously run:               0
+2023-05-28 15:56:26.868  INFO 36140 [           main] l.u.ShowSummaryUtil                      : Filtered out:                 0
+2023-05-28 15:56:26.868  INFO 36140 [           main] l.u.ShowSummaryUtil                      : -------------------------------
+2023-05-28 15:56:26.868  INFO 36140 [           main] l.u.ShowSummaryUtil                      : Total change sets:            1
+
+2023-05-28 15:56:26.869  INFO 36140 [           main] l.u.ShowSummaryUtil                      : Update summary generated
+2023-05-28 15:56:26.870  INFO 36140 [           main] l.c.c.UpdateCommandStep                  : Update command completed successfully.
+2023-05-28 15:56:26.875  INFO 36140 [           main] l.l.StandardLockService                  : Successfully released change log lock
+2023-05-28 15:56:26.879  INFO 36140 [           main] l.l.StandardLockService                  : Successfully released change log lock
+2023-05-28 15:56:26.879  INFO 36140 [           main] l.c.CommandScope                         : Command execution complete
+2023-05-28 15:56:26.881  INFO 36140 [           main] d.e.k.SqlSessionFactory                  : Creating mybatis sql session factory
+2023-05-28 15:56:27.009  INFO 36140 [           main] d.e.k.Main                               : Querying roles
+2023-05-28 15:56:27.030  INFO 36140 [           main] d.e.k.Main                               : Roles [Role(id=ADMIN), Role(id=SUPPORT)]
+2023-05-28 15:56:27.030  INFO 36140 [           main] d.e.k.Main                               : Querying users

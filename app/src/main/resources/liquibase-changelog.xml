@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.4.xsd"
+>
+    <changeSet author="stephen" id="1">
+
+        <createTable tableName="app_user">
+            <column name="id" autoIncrement="true" type="INTEGER">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="pk_app_user"/>
+            </column>
+            <column name="name" type="varchar(200)">
+                <constraints nullable="false"/>
+            </column>
+            <column name="email" type="varchar(200)">
+                <constraints nullable="false"/>
+            </column>
+        </createTable>
+
+        <createTable tableName="role">
+            <column name="id" type="varchar(60)">
+                <constraints nullable="false" primaryKey="true" primaryKeyName="pk_role"/>
+            </column>
+        </createTable>
+
+        <createTable tableName="app_user_x_role">
+            <column name="role_id" type="varchar(60)">
+                <constraints
+                        nullable="false"
+                        primaryKey="true" primaryKeyName="pk_app_user_x_role"
+                        foreignKeyName="fk_app_user_2_role" references="role(id)"/>
+            </column>
+            <column name="app_user_id" type="INTEGER">
+                <constraints
+                        nullable="false"
+                        primaryKey="true" primaryKeyName="pk_app_user_x_role"
+                        foreignKeyName="fk_role_2_app_user" references="app_user(id)"/>
+            </column>
+        </createTable>
+
+        <insert tableName="role">
+            <column name="id">ADMIN</column>
+        </insert>
+
+        <insert tableName="role">
+            <column name="id">SUPPORT</column>
+        </insert>
+
+        <insert tableName="app_user">
+            <column name="name">Foo Bar</column>
+            <column name="email">foo@bar.de</column>
+        </insert>
+        <insert tableName="app_user_x_role">
+            <column name="app_user_id" valueComputed="(select u.id from app_user u where u.email = 'foo@bar.de')"/>
+            <column name="role_id">ADMIN</column>
+        </insert>
+        <insert tableName="app_user_x_role">
+            <column name="app_user_id" valueComputed="(select u.id from app_user u where u.email = 'foo@bar.de')"/>
+            <column name="role_id">SUPPORT</column>
+        </insert>
+
+        <insert tableName="app_user">
+            <column name="name">Bee Woop</column>
+            <column name="email">bee@woop.de</column>
+        </insert>
+        <insert tableName="app_user_x_role">
+            <column name="app_user_id" valueComputed="(select u.id from app_user u where u.email = 'bee@woop.de')"/>
+            <column name="role_id">SUPPORT</column>
+        </insert>
+
+    </changeSet>
+</databaseChangeLog>
